@@ -1,0 +1,37 @@
+.input_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.input_style input {
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+}
+.input_style button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.dark.input_style button {
+    background-color: rgb(108, 5, 29);
+    color: rgb(254,254,254);
+}
+.dark.input_style button:hover {
+    background-color: rgba(255, 255, 255, 0.76);
+    color: rgb(19, 18, 18);
+}
+.light.input_style button {
+    background-color: rgba(43, 77, 142, 0.75);
+    color: rgb(254,254,254);
+}
+.light.input_style button:hover {
+    background-color: rgba(52, 217, 40, 0.7);
+    color: rgb(19, 18, 18);
+}

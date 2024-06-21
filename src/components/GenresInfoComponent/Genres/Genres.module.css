@@ -1,0 +1,12 @@
+.AllGenres {
+    width: 90vw;
+    margin: 20px 0 20px 5vw;
+    height: auto;
+    background-color: rgba(19, 18, 18, 0.51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: white 1px solid;
+    background-image: url("https://media.istockphoto.com/id/1061119906/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%84%D0%BE%D0%BD-%D0%B3%D1%80%D0%B8.jpg?s=1024x1024&w=is&k=20&c=TKs2U5qG2NHWVoLKqab7qsx2r9P-agX8Mawd_hXbCXo=");
+}

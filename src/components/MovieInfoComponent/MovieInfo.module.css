@@ -1,0 +1,83 @@
+.MovieInfo {
+    margin-top: 15px;
+}
+
+.titleName {
+    font-size: 60px;
+    font-family: "Malayalam MN", sans-serif;
+    margin: 10px 25vw;
+    color: white;
+    width: auto;
+    background-color: rgba(105, 105, 105, 0.58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.infoBlock {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 15px 15px 25px;
+    width: 16%;
+}
+
+.movieGenres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 140px;
+    height: auto;
+    margin: 5px 0 10px 40px;
+    background-color: rgba(105, 105, 105, 0.37);
+    border-radius: 20px;
+}
+
+.iconStyle {
+    height: 700px;
+    margin: 20px 20px 10px 25vw;
+    border: #131212 2px solid;
+}
+
+.overview {
+    font-size: 20px;
+    font-family: "Malayalam MN", sans-serif;
+    margin: 0 0 0 10px;
+}
+
+.summary {
+    font-family: "Malayalam MN", sans-serif;
+    margin: 0 0 0 10px;
+}
+
+.starRating {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.backdropStyleSize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 50px 10vw 40px 10vw;
+}
+.infoPost {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 10px;
+}
+.movieGenres button{
+    background-color: rgba(255, 0, 0, 0.75);
+}

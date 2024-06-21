@@ -1,0 +1,91 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: snow;
+    height: 80px;
+    border: 2px solid black;
+}
+.logoParams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoParamsBack {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(241, 241, 241, 0.59);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logoParamsBack img{
+    height: 60px;
+    margin-left: -1px;
+}
+
+.logoImgUA{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.Header a {
+    text-decoration: none;
+    font-size: 40px;
+}
+.dark {
+    background-color: rgba(31, 33, 42, 0.37);
+    color: #ffffff;
+}
+.dark.Header h1 {
+    color: rgb(127,128,132);
+}
+
+.dark.Header a {
+    color: rgb(44, 50, 68);
+}
+
+.dark.Header a:hover {
+    color: rgba(172, 173, 175, 0.51);
+}
+
+.dark.Header a[class='active']{
+    color: rgb(161, 9, 9);
+}
+
+.dark.Header h4 {
+    color: rgb(172,173,175);
+}
+
+.light {
+    background-color: rgba(0, 39, 79, 0.82);
+    color: #333;
+}
+
+.light.Header h1 {
+    color: rgb(26,51,100);
+}
+
+.light.Header a {
+    color: rgb(64,82,130);
+}
+
+.light.Header a:hover {
+    color: rgb(26,51,100);
+}
+
+.light.Header a[class='active']{
+    color: rgb(19, 18, 18);
+}
+
+.light.Header h4 {
+    color: rgb(64,82,130);
+}

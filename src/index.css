@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: var(--background-image);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body.dark {
+  --background-image: url("https://wallpaper.forfun.com/fetch/1d/1dee8bb45b1743cbecfc62c6c5588d95.jpeg");
+  --background-color: rgb(34,39,43);
+  --text-color: #fff;
+}
+body.light {
+  --background-image: url("https://wallpaper.forfun.com/fetch/32/32200980ad0bd531940eb5a31bd0ac14.jpeg");
+  --text-color: #333;
+  --background-color: rgb(255,255,255);
+}

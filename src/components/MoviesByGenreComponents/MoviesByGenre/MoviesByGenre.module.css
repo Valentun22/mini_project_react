@@ -1,0 +1,12 @@
+.MoviesByGenre {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw 0 5vw;
+}
+
+.movies_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

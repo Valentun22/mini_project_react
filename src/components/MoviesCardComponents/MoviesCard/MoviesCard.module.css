@@ -1,0 +1,32 @@
+.backBtn {
+    display: flex;
+    margin: 20px 0 0 30px;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 100px;
+    background-color: rgba(112, 109, 109, 0.55);
+    align-items: center;
+}
+.backBtn img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.backBtn button {
+    width: 80px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 18, 18);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.backBtn button:hover {
+    background-color: rgb(2, 22, 61);
+}
